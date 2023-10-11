@@ -40,3 +40,49 @@
 .read-the-docs {
   color: #888;
 }
+
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.pagelayout {
+  display: flex;
+  flex-flow: row;
+  height: 100px;
+}
+
+
+.main {
+  margin-left: 100px; 
+  font-size: 28px; 
+  padding: 0px 10px;
+  top:100px;
+  position: relative;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.row {
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  text-align: center;
+  display: flex;
+}
+
+.leftside {
+  width: 160px;
+}
+
+.rightside {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

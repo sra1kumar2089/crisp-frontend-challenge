@@ -1,0 +1,30 @@
+.task-item{
+    margin-left: 0px;
+    margin-top: 20px;
+    place-items: center;
+    min-height: 75px;
+    padding: 4px;
+    border: solid grey thin;
+    display: block;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.task-button{
+    width: 70px;
+}
+
+.task-incomplete-color{
+    width: 5px;
+    height: 75px;
+    background-color: yellow;
+}
+
+.task-completed-color{
+    width: 5px;
+    height: 75px;
+    background-color: green;
+}
+
